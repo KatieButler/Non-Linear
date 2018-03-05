@@ -68,18 +68,18 @@ while(cap.isOpened()):
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         ## define range of blue color in HSV
-        lower_blue = np.array([90,65,80])
-        upper_blue = np.array([110,255,255])
+        lower_blue = np.array([95,65,80])
+        upper_blue = np.array([105,255,255])
 
-        ## define range of blue color in HSV
-        lower_green = np.array([60,100,10])
-        upper_green = np.array([80,255,255])
+        ## define range of green color in HSV
+        lower_green = np.array([55,100,10])
+        upper_green = np.array([70,255,255])
 
-        ## define range of blue colo5r in HSV
-        lower_red = np.array([120,50,90])
-        upper_red = np.array([200,255,255])
+        ## define range of red colo5r in HSV
+        lower_red = np.array([140,50,90])
+        upper_red = np.array([190,255,255])
 
-        ## define range of blue color in HSV
+        ## define range of yellow color in HSV
         lower_yellow = np.array([0,50,80])
         upper_yellow = np.array([45,255,255])
 
